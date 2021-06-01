@@ -10,13 +10,10 @@ public class Principal{
 	      int x=2, y=0;
 			  int resultado = cal.calcular(x,y);
 		      System.out.println("resultado = " + resultado);
-		  
 	}
 	private static void engine(CalculadoraLong cal){
 		long x=2, y=0;
 		    long resultado = cal.calcular(x,y);
 		    System.out.println("resultado = " + resultado);
-		}
-
 	}
 }

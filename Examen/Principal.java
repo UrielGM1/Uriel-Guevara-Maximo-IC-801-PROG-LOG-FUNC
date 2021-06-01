@@ -23,7 +23,7 @@ public class Principal {
        //13
         miMetodo((x,y,z)-> System.out.println(x+(y/z))); 
        //16
-       pe = (x, y, z) -> System.out.println((double)x/y/z);
+       pe = (x, y, z) -> System.out.println((double)x+y/z);
        pe.operacionPrueba(5,6,3);
        //17
        miMetodo(pe,2,3,5);      
