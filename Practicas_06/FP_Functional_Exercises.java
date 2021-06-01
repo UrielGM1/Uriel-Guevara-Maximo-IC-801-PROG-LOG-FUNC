@@ -55,7 +55,8 @@ public class FP_Functional_Exercises {
         System.out.println("");
     }
     private static void CubeNumbersFunctional(List<Integer> numbers){
-        numbers.stream().map(number -> number*number*number).forEach(FP_Functional_Exercises::Print);
+        numbers.stream().filter(FP_Functional_Exercises::NumbersOdd)
+        .map(number -> number*number*number).forEach(FP_Functional_Exercises::Print);
         System.out.println("");
     }
     private static void NumberCharacter(List<String> strings){
